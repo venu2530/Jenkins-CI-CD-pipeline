@@ -83,42 +83,6 @@ Git Repository
       └───────────────────────┘
 ```
 
-Directory Structure:
-
-```
-src/
-│
-├── helm/
-│   ├── Dockerfile
-│   └── charts/
-│       └── your_application_chart/
-│           ├── Chart.yaml
-│           ├── templates/
-│           │   ├── deployment.yaml
-│           │   ├── service.yaml
-│           │   └── ...
-│           └── values.yaml
-│
-├── Jenkinsfile
-└── pom.xml
-src/
-│
-├── helm/
-│   ├── Dockerfile
-│   └── charts/
-│       └── your_application_chart/
-│           ├── Chart.yaml
-│           ├── templates/
-│           │   ├── deployment.yaml
-│           │   ├── service.yaml
-│           │   └── ...
-│           └── values.yaml
-│
-├── Jenkinsfile
-└── pom.xml
-
-```
-
 ## Usage
 
 1. **Setting Up Jenkins**:
